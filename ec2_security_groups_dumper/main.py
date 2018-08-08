@@ -252,7 +252,7 @@ class Firewall(object):
             str
         """
         # Generate a csv file in memory with all the data in
-        output = StringIO.StringIO()
+        output = StringIO()
         fieldnames = ['id',
                       'name',
                       'description',
